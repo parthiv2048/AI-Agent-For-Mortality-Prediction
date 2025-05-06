@@ -23,10 +23,17 @@ This project presents the development of an AI agent designed to predict patient
 
 ## Dependencies
 pandas==2.2.2
+
 numpy==2.0.2
+
 imblearn==0.13.0
+
 scikit-learn==1.6.1
+
 shap==0.47.2
+
 matplotlib==3.10.0
+
 vertexai==1.91.0
+
 langchain[google-vertexai]
