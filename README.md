@@ -3,8 +3,9 @@
 This project presents the development of an AI agent designed to predict patient mortality within 90 days based on Electronic Health Records (EHR). The system incorporates data preprocessing, missing value imputation, machine learning models, tool calling, and interpretability techniques to enhance decision-making support in clinical settings. The model primarily leverages Random Forest for classification and SHAP (SHapley Additive exPlanations) for explainability. Furthermore, the predictive results are translated into natural language using a large language model (LLM), offering clinicians an intuitive understanding of patient risk profiles. The final product is an AI agent accessible through natural language queries, implemented using Langchain and Google's Gemini-2.0.
 
 ## How to run the experiments used in the paper
-1. Open the `AI_Agent_for_EHR_Data.ipynb` locally or in Google Colab
-2. Run each cell sequentially
+1. Open the `AI_Agent_for_EHR_Data.ipynb` in Google Colab
+2. Your Google Colab "Secrets" tab should contain your Google Cloud API Key as `GOOGLE_API_KEY` and you Google Cloud Project ID as `GOOGLE_PROJ_ID1`. On your Google Cloud Console, VertexAI must be enabled.
+3. Run each cell sequentially
 
 ## How to use the AI_Agent.py module
 1. Make sure you have a .env file in the same folder as `AI_Agent.py`. Your .env file should contain your Google Cloud API Key as `GOOGLE_API_KEY` and you Google Cloud Project ID as `GOOGLE_PROJ_ID1`. On your Google Cloud Console, VertexAI must be enabled.
